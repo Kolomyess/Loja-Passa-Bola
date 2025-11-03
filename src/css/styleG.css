@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu-livros {
+    display: flex;
+    flex-wrap: wrap;   /* permite quebrar de linha */
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.menu-unidades{
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.paginas{
+    margin-left: 80%;
+    margin-top: 20px;
+}
+.titulo-uni{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+.img-banner-home{
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+}
+.img-banner-menu{
+    background-image: url('https://img.freepik.com/vetores-gratis/cenario-panoramico-interior-de-uma-cafeteria_107791-32869.jpg?semt=ais_hybrid&w=740&q=80');
+}
+.img-banner-sobre{
+    background-image: url('https://www.shutterstock.com/image-vector/wooden-bookcase-books-bookshelves-multicolored-260nw-1722703624.jpg');
+}
+.img-banner-uni{
+    background-image: url('https://thumbs.dreamstime.com/b/corredor-de-biblioteca-silencioso-alinhado-com-prateleiras-livros-num-cen%C3%A1rio-moderno-um-longo-numa-moderna-apresenta-linhas-331951871.jpg');
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.banner h2,
+.banner p {
+    position: relative;
+    z-index: 2;
+}
+
+
+.banner h2, .banner p {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.parceiros {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards-parceiros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card-parceiro {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-parceiro:hover {
+    transform: translateY(-5px);
+}
+
+.card-parceiro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card-parceiro h4 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+.ln-header {
+  text-align: center;
+  padding: 30px 10px;
+  background: #ffffff;
+  border-bottom: 2px solid #eee;
+}
+
+.ln-title {
+  color: black;
+  font-size: 28px;
+}
+
+/* Sobre */
+.ln-about {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ln-subtitle {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ln-about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.ln-text {
+  flex: 1 1 400px;
+  text-align: justify;
+}
+
+.ln-image {
+  flex: 1 1 300px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Missão e Visão */
+.ln-mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.ln-mission,
+.ln-vision {
+  flex: 1 1 400px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ln-mission .ln-subtitle,
+.ln-vision .ln-subtitle {
+  margin-bottom: 15px;
+}
