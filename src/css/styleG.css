@@ -34,17 +34,15 @@
     position: relative;
 }
 .img-banner-home{
-    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+    background-image: url('../imgs/19899411875_6906038d60_b.jpg');
 }
 .img-banner-menu{
     background-image: url('https://img.freepik.com/vetores-gratis/cenario-panoramico-interior-de-uma-cafeteria_107791-32869.jpg?semt=ais_hybrid&w=740&q=80');
 }
 .img-banner-sobre{
-    background-image: url('https://www.shutterstock.com/image-vector/wooden-bookcase-books-bookshelves-multicolored-260nw-1722703624.jpg');
+    background-image: url('../imgs/1500x500.jpeg');
 }
-.img-banner-uni{
-    background-image: url('https://thumbs.dreamstime.com/b/corredor-de-biblioteca-silencioso-alinhado-com-prateleiras-livros-num-cen%C3%A1rio-moderno-um-longo-numa-moderna-apresenta-linhas-331951871.jpg');
-}
+
 .banner::before {
     content: "";
     position: absolute;
@@ -174,4 +172,97 @@
 .ln-mission .ln-subtitle,
 .ln-vision .ln-subtitle {
   margin-bottom: 15px;
+}
+
+/* Header, navbar and footer global color per user request (#ffd1dc) */
+header,
+.ln-header,
+nav,
+.navbar,
+.navbar-brand {
+    background-color: #ffd1dc !important;
+    color: #1a1a1a !important;
+}
+
+/* Brand text next to logo */
+.brand-text {
+    /* match surrounding site font */
+    font-family: inherit;
+    font-size: 1rem;
+    margin-left: 0.6rem;
+    vertical-align: middle;
+    color: #1a1a1a !important;
+    display: inline-block;
+}
+
+/* navbar links and toggler */
+.navbar .nav-link,
+.navbar a,
+.navbar-brand,
+.navbar-toggler {
+    color: #000000 !important;
+}
+
+footer,
+footer.bg-dark {
+    background-color: #ffd1dc !important;
+    color: #1a1a1a !important;
+}
+
+/* ensure links in footer/nav are readable */
+footer a,
+.ln-header a { color: #1a1a1a !important; }
+
+/* Navbar search input and button styling */
+nav input[type="search"],
+nav .form-control,
+.navbar input[type="search"],
+.navbar .form-control {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+    border: 1px solid rgba(0,0,0,0.12) !important;
+    padding: 0.4rem 0.6rem !important;
+    border-radius: 0.25rem !important;
+}
+
+/* Global button styling */
+.btn-primary,
+.btn-outline-success,
+.btn {
+    background-color: #ff6f91 !important;
+    color: #ffffff !important;
+    border-color: #ff6f91 !important;
+}
+
+.btn-primary:hover,
+.btn-outline-success:hover,
+.btn:hover {
+    background-color: #ff5c82 !important;
+    border-color: #ff5c82 !important;
+    color: #ffffff !important;
+}
+
+/* Ensure search button in navbar matches */
+nav button[type="submit"],
+nav .btn,
+.navbar .btn {
+    background-color: #ff6f91 !important;
+    color: #ffffff !important;
+    border-color: #ff6f91 !important;
+}
+
+/* subtle hover state for buttons */
+nav button[type="submit"]:hover,
+nav .btn:hover,
+.navbar .btn:hover {
+    background-color: #ff5c82 !important;
+    border-color: #ff5c82 !important;
+}
+
+/* Hover color for navbar links except the brand link ("Passa a Bola Store") */
+/* Excludes links with class .navbar-brand so the brand text won't change on hover */
+nav a:not(.navbar-brand):hover,
+.navbar a:not(.navbar-brand):hover,
+.nav-link:not(.navbar-brand):hover {
+    color: #88678a !important;
 }

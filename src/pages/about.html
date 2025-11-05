@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passa a Bola Store</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styleG.css">
-    <title>Passa a Bola Store</title>
 </head>
-
 <body>
-    <header>
+    <section>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../../index.html">Passa a Bola Store |</a>
+                <a class="navbar-brand d-flex align-items-center" href="../../index.html">
+                    <img src="../imgs/logopassa.png" alt="Passa a Bola Store" style="height:40px; vertical-align:middle;" />
+                    <span class="brand-text">Passa a Bola Store |</span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -23,13 +24,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                            <a class="nav-link" href="../../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/menu.html">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/src/pages/about.html">Sobre nós</a>
+                            <a class="nav-link active" aria-current="page" href="../pages/about.html">Sobre nós</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -39,62 +40,82 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </section>
 
     <section class="banner img-banner-sobre">
         <h2>Sobre Nós</h2>
         <p>Saiba mais sobre nosso trabalho!</p>
     </section>
 
-    <header class="ln-header">
-        <h1 class="ln-title">QUEM SOMOS</h1>
+    <header class="text-center py-5 bg-light border-bottom">
+        <h1 class="display-4">QUEM SOMOS</h1>
     </header>
 
-    <section class="ln-about">
-        <h2 class="ln-subtitle">HÁ MAIS DE 50 ANOS, A LIVRARIA NOVA ERA LEVA CONHECIMENTO E CULTURA PELO BRASIL</h2>
-        <div class="ln-about-content">
-            <p class="ln-text">
-                Nossa história começou em uma pequena sala no interior de Minas Gerais,
-                quando um grupo de amigos apaixonados por literatura decidiu criar
-                um espaço onde livros e pessoas se encontrassem.
-                Com dedicação e amor pela leitura, crescemos e hoje somos uma das redes
-                de livrarias mais reconhecidas do país.
-            </p>
-            <p class="ln-text">
-                Atualmente, contamos com lojas em várias capitais brasileiras,
-                oferecendo muito mais do que livros: realizamos oficinas,
-                exposições artísticas, sessões de cinema cultural e encontros literários.
-                Queremos que cada visita seja uma experiência única de aprendizado e inspiração.
-            </p>
-            <img src="https://ebookpress.wordpress.com/wp-content/uploads/2015/11/biblioteca-trinity.jpg?w=698&h=408" alt="Imagem ilustrativa da livraria" class="ln-image">
+    <section class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card shadow-sm">
+                    <div class="card-body p-5">
+                        <h2 class="text-center mb-4">HÁ MAIS DE 50 ANOS, A LIVRARIA NOVA ERA LEVA CONHECIMENTO E CULTURA PELO BRASIL</h2>
+                        <div class="row g-4 align-items-start">
+                            <div class="col-lg-6">
+                                <p class="lead mb-4">
+                                    Nossa história começou em uma pequena sala no interior de Minas Gerais,
+                                    quando um grupo de amigos apaixonados por literatura decidiu criar
+                                    um espaço onde livros e pessoas se encontrassem.
+                                    Com dedicação e amor pela leitura, crescemos e hoje somos uma das redes
+                                    de livrarias mais reconhecidas do país.
+                                </p>
+                                <p class="lead">
+                                    Atualmente, contamos com lojas em várias capitais brasileiras,
+                                    oferecendo muito mais do que livros: realizamos oficinas,
+                                    exposições artísticas, sessões de cinema cultural e encontros literários.
+                                    Queremos que cada visita seja uma experiência única de aprendizado e inspiração.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="https://ebookpress.wordpress.com/wp-content/uploads/2015/11/biblioteca-trinity.jpg?w=698&h=408" 
+                                     alt="Imagem ilustrativa da livraria" 
+                                     class="img-fluid rounded shadow-sm"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="ln-mission-vision">
-        <div class="ln-mission">
-            <h2 class="ln-subtitle">MISSÃO</h2>
-            <p class="ln-text">
-                Inspirar pessoas a descobrirem novos mundos por meio da leitura,
-                disponibilizando um acervo diversificado e acessível,
-                com atendimento humanizado e de qualidade.
-            </p>
-        </div>
-        <div class="ln-vision">
-            <h2 class="ln-subtitle">VISÃO</h2>
-            <p class="ln-text">
-                Ser reconhecida como a principal referência cultural do Brasil,
-                expandindo nosso alcance e promovendo a transformação social
-                através do conhecimento e da arte.
-            </p>
+    <section class="container mb-5">
+        <div class="row justify-content-center g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="card-title mb-3">MISSÃO</h2>
+                        <p class="card-text">Inspirar pessoas a descobrirem novos mundos por meio da leitura, 
+                        disponibilizando um acervo diversificado e acessível, com atendimento humanizado e de qualidade.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="card-title mb-3">VISÃO</h2>
+                        <p class="card-text">Ser reconhecida como a principal referência cultural do Brasil, 
+                        expandindo nosso alcance e promovendo a transformação social através do conhecimento e da arte.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-     <footer class="bg-dark text-center text-white py-4 mt-5">
-        <div class="container">
-            <p class="mb-2">© 2025 Livraria Quartzo. Todos os direitos reservados.</p>
-            <a href="#" class="text-white me-3">Política de Privacidade</a>
-            <a href="#" class="text-white">Termos de Uso</a>
-        </div>
-    </footer>
+
+  <footer class="bg-dark text-center text-white py-4 mt-5">
+    <div class="container">
+      <p class="mb-2">© 2025 Livraria Quartzo. Todos os direitos reservados.</p>
+      <a href="#" class="text-white me-3">Política de Privacidade</a>
+      <a href="#" class="text-white">Termos de Uso</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-dZlgeVAPY+JfUkEAAFbaF7GqQNq/Mj0A5pJ0D8G08R+677CWg78u7EaQG5+g17J" crossorigin="anonymous"></script>
 </body>
-
 </html>
