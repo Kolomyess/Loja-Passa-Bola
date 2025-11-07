@@ -37,7 +37,7 @@
     background-image: url('../imgs/19899411875_6906038d60_b.jpg');
 }
 .img-banner-menu{
-    background-image: url('https://img.freepik.com/vetores-gratis/cenario-panoramico-interior-de-uma-cafeteria_107791-32869.jpg?semt=ais_hybrid&w=740&q=80');
+    background-image: url('../imgs/BANNER-PRINCIPAL-COMPLETO-01.png');
 }
 .img-banner-sobre{
     background-image: url('../imgs/1500x500.jpeg');
@@ -180,7 +180,7 @@ header,
 nav,
 .navbar,
 .navbar-brand {
-    background-color: #ffd1dc !important;
+    background-color: #e2617f !important;
     color: #1a1a1a !important;
 }
 
@@ -205,7 +205,7 @@ nav,
 
 footer,
 footer.bg-dark {
-    background-color: #ffd1dc !important;
+    background-color: #e2617f !important;
     color: #1a1a1a !important;
 }
 
@@ -246,17 +246,16 @@ nav .form-control,
 nav button[type="submit"],
 nav .btn,
 .navbar .btn {
-    background-color: #ff6f91 !important;
+    background-color: #fa89c351 !important;
     color: #ffffff !important;
-    border-color: #ff6f91 !important;
+
 }
 
 /* subtle hover state for buttons */
 nav button[type="submit"]:hover,
 nav .btn:hover,
 .navbar .btn:hover {
-    background-color: #ff5c82 !important;
-    border-color: #ff5c82 !important;
+    background-color: #fa89c3fd !important;
 }
 
 /* Hover color for navbar links except the brand link ("Passa a Bola Store") */
@@ -264,5 +263,5 @@ nav .btn:hover,
 nav a:not(.navbar-brand):hover,
 .navbar a:not(.navbar-brand):hover,
 .nav-link:not(.navbar-brand):hover {
-    color: #88678a !important;
+    color: #ffffff !important;
 }
